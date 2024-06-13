@@ -3,7 +3,7 @@ Official repository for "Classification of Multi-Parametric Body MRI Series Usin
 
 
 ## Installation
-- Pre-requisites: You may need Conda environment. You can download Anaconda from this [link](https://www.anaconda.com/download).
+You may need Conda environment. You can download Anaconda from this [link](https://www.anaconda.com/download).
 Then, please run:
 ```
 conda env create –f mriclassifier_env.yml
