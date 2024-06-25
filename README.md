@@ -12,8 +12,6 @@ conda activate mriclassifier
 
 ## Dataset
 This code runs using NIFTI (.nii.gz) files. Please put your NIFTI files into ./data.
-* Here, we put several examples of NIFTI files from the public Duke liver dataset ([DLDS](https://pubs.rsna.org/doi/full/10.1148/ryai.220275)) in ./data/DLDS_dataset. Note that we used the DLDS dataset only for the evaluation in our paper.
-
 For preprocessing data, please run:
 ```
 python data_preprocessing.py
