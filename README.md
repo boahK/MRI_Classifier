@@ -1,9 +1,9 @@
 # 3D MRI Series Classifier
 Official repository for "Classification of Multi-Parametric Body MRI Series Using Deep Learning", published in IEEE Journal of Biomedical and Health Informatics.
 
-[[paper](https://ieeexplore.ieee.org/document/10645214)]
+[[IEEE JBHI paper](https://ieeexplore.ieee.org/document/10645214)]
 
-![Image of The Proposed method](figs/method.png)
+![Image of The Proposed method](figs/graphical_abstract.png)
 
 
 ## 1. Installation
