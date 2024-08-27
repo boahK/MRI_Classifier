@@ -95,7 +95,7 @@ else:
 all_probs = []
 for fold in range(1,6):
     print('##### Test MRI_classifier (Fold %d) #####' % fold)
-    checkpoint_dir = os.path.join(args.path_checkpoint, "%s_3d_classifier" %args.model, 'best_metric_model_fold_%s.pth'%fold)
+    checkpoint_dir = os.path.join(args.path_checkpoint, 'best_metric_model_fold_%s.pth'%fold)
     state_dict = torch.load(checkpoint_dir, map_location='cuda:0')
     model.load_state_dict(state_dict)
     model.eval()
