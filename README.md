@@ -24,7 +24,7 @@ Then, the processed data will be saved in ./data/preprocessed.
 
 * If you use our pre-trained model, please preprocess the data using the above code, which resamples the 3D MRI volumes.
 
-## Train
+## 3-1. Train
 
 To train our model, run the following command:
 
@@ -33,7 +33,7 @@ sh train.sh
 ```
 The checkpoints of the model will be saved in ./checkpoint/.
 
-## Test
+## 3-2. Test
 
 To test the trained our model, run:
 
@@ -45,3 +45,12 @@ The results of the MRI classification such as the confusion matrix will be saved
 * Here, we have provided our pre-trained model which was trained on the Siemens scanner data and then finetuned on the Philips scanner data (Please see Strategy 2 in Table 2 of the paper).
 * To use our pre-trained model, please download the model weights from [here](https://nihcc.box.com/s/x9gy5qc3b1ubae3xcmdbzcl5wxrz885c) and put the weights in ./pretrained_model.
 
+Citation
+===============
+```
+@article{kimclassification,
+  title={Classification of Multi-Parametric Body MRI Series Using Deep Learning},
+  author={Kim, Boah and Mathai, Tejas Sudharshan and Helm, Kimberly and Pinto, Peter A and Summers, Ronald M},
+  journal={IEEE journal of biomedical and health informatics}
+}
+```
