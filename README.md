@@ -38,5 +38,6 @@ sh test.sh
 ```
 The results of the MRI classification such as the confusion matrix will be saved in ./results.
 
-To use our pre-trained model, please download the model weights from [here]() and put the weights in ./pretrained_model.
+* Here, we have provided our pre-trained model which was trained on the Siemens scanner data and then finetuned on the Philips scanner data (Please see Strategy 2 in Table 2 of the paper).
+* To use our pre-trained model, please download the model weights from [here](https://nihcc.box.com/s/x9gy5qc3b1ubae3xcmdbzcl5wxrz885c) and put the weights in ./pretrained_model.
 
