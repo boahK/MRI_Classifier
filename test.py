@@ -124,7 +124,7 @@ for fold in range(1,6):
 ########################################################################
 print('##### Results from ensembling the 5-fold models #####')
 ensemble_probs = (all_probs[0] + all_probs[1] + all_probs[2] + all_probs[3] + all_probs[4])/5
-ensemble_probs_df = pd.DataFrame(ensemble_probs).transpose()
+ensemble_probs_df = pd.DataFrame(ensemble_probs)
 ensemble_probs_df.to_csv(os.path.join(args.path_result,'ensemble_probs.csv'))
 
 predictions = np.argmax(ensemble_probs, axis=1).tolist()
