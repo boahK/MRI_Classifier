@@ -4,7 +4,7 @@ Official repository for "Classification of Multi-Parametric Body MRI Series Usin
 [[paper](https://ieeexplore.ieee.org/document/10645214)]
 
 
-## Installation
+## 1. Installation
 You may need Conda environment. You can download Anaconda from this [link](https://www.anaconda.com/download).
 Then, please run:
 ```
@@ -12,13 +12,15 @@ conda env create –f mriclassifier_env.yml
 conda activate mriclassifier
 ```
 
-## Dataset
+## 2. Dataset
 This code runs using NIFTI (.nii.gz) files. Please put your NIFTI files into ./data.
 For preprocessing data, please run:
 ```
 python data_preprocessing.py
 ```
 Then, the processed data will be saved in ./data/preprocessed.
+
+* If you use our pre-trained model, please preprocess the data using the above code, which resamples the 3D MRI volumes.
 
 ## Train
 
