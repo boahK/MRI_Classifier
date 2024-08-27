@@ -3,6 +3,8 @@ Official repository for "Classification of Multi-Parametric Body MRI Series Usin
 
 [[paper](https://ieeexplore.ieee.org/document/10645214)]
 
+![Image of The Proposed method](figs/method.png)
+
 
 ## 1. Installation
 You may need Conda environment. You can download Anaconda from this [link](https://www.anaconda.com/download).
