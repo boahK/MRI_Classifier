@@ -36,5 +36,5 @@ sh test.sh
 ```
 The results of the MRI classification such as the confusion matrix will be saved in ./results.
 
-To use our pre-trained model, please download the model weights from [here]() and put the weights in ./pretrained_models.
+To use our pre-trained model, please download the model weights from [here]() and put the weights in ./pretrained_model.
 
