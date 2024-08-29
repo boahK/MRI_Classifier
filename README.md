@@ -48,9 +48,11 @@ The results of the MRI classification such as the confusion matrix will be saved
 Citation
 ===============
 ```
-@article{kimclassification,
+@article{kim2024classification,
   title={Classification of Multi-Parametric Body MRI Series Using Deep Learning},
   author={Kim, Boah and Mathai, Tejas Sudharshan and Helm, Kimberly and Pinto, Peter A and Summers, Ronald M},
-  journal={IEEE journal of biomedical and health informatics}
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2024},
+  publisher={IEEE}
 }
 ```
