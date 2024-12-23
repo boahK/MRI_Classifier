@@ -143,4 +143,3 @@ classification_report = classification_report(actuals, predictions, target_names
 classification_report_df = pd.DataFrame(classification_report).transpose()
 classification_report_df.to_csv(os.path.join(args.path_result, 'ensemble_classification_report.csv'))
 print(classification_report_df)
-print("Ensemble AUC: ",metrics.roc_auc_score(y_true=labels_test_np, y_score=ensemble_probs, average='weighted'))
